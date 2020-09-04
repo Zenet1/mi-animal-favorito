@@ -1,0 +1,38 @@
+*{
+	font-family: Bahnschrift;
+}
+body{
+	display: grid;
+	background-size: cover;
+	place-items: center;
+	align-items: center;
+	justify-content: center;
+	background-color: rgba(230, 71, 190, 0.4);
+}
+h1{
+	display: block;
+	padding: 23px;
+	border-radius: 10px;
+	color: #000000;
+	border: 5px solid currentcolor;
+	text-decoration: none;
+}
+h1:hover{
+	background-color: rgb(171, 43, 169, 0.7);
+}
+img{
+	border-radius: 10px;
+	margin: 15px;
+}
+p{
+	text-align: center;
+	font-size: 25px;
+	padding: 5px;
+	border: 2px solid currentcolor;
+	border-radius: 5px;
+	background-color: #ffffff;
+}
+div{
+	margin: 5px;
+	background-color: white;
+}
